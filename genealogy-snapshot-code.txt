@@ -9,7 +9,6 @@ Code Reuse:		Must Colleen Greene (www.colleengreene.com) in your actual code whe
 
 
 /* ***** Genealogy Snapshot Box styling, added to child theme custom style sheet style.css ***** */
-/* By Colleen Greene */
 .snapshot-box { 
 	background:#f5f5f5; 
 	border:1px solid #999999; 
