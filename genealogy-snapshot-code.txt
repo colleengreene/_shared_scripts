@@ -3,10 +3,14 @@ Code Block Name:	Genealogy Snapshot Box
 Purpose:		Creates the "Genealogy Snapshot" box that I display at the end of each ancestor post on my family history blog at www.cjroots.com
 Created by:		Colleen Greene, MLIS (@colleengreene)
 Created:		2014
-Last Modified:		01/29/14 by Colleen Greene (@colleengreene), Pollak Library	
-Code Reuse:		Must Colleen Greene (www.colleengreene.com) in your actual code when using it.
+Last Modified:		01/31/15 by Colleen Greene (@colleengreene)	
+Code Reuse:		Must credit Colleen Greene (www.colleengreene.com) in your actual code when using it.
 ===========================================================================================*/
 
+
+
+
+/* ********** VERSION 1: USE THIS VERSION IF YOU HAVE ACCESS TO MODIFY AN EXTERNAL STYLE SHEET ********** */
 
 /* ***** Genealogy Snapshot Box styling, added to child theme custom style sheet style.css ***** */
 .snapshot-box { 
@@ -36,3 +40,32 @@ Code Reuse:		Must Colleen Greene (www.colleengreene.com) in your actual code whe
 </ol>
 </div>
 <!-- End copying into raw HTML editor -->
+
+/* ********** END VERSION 1 ********** */
+
+
+
+/* ********* VERSION 2: USE THIS VERSION FOR BLOGGER AND FREE WORDPRESS.COM, WITH NO EXTERNAL STYLE SHEET ACCESS ********** */
+
+<!-- ***** Genealogy Snapshot Box template code, added to ancestor blog posts ***** -->
+<!-- Start copying into raw HTML editor -->
+<br />
+<div style="background-color: #f5f5f5; border: 1px solid #999999; position:relative; margin:2px 0px 10px 0px; overflow:hidden; padding:1em;">
+<h2>
+Genealogy Snapshot</h2>
+<em><strong>Name:</strong></em> [Insert Ancestor Name &amp; Link]<br />
+<em><strong>Parents:</strong></em> [Insert Father Name &amp; Link] and [Insert Mother Name &amp; Link]<br />
+<strong><em>Spouse:</em></strong> [Insert Spouse Name &amp; Link]<br />
+<strong><em>Surnames:</em></strong> [Insert Surname &amp; Link], [Insert Surname &amp; Link], [Insert Surname &amp; Link]<br />
+<em><strong>Relationship to CJRoots:</strong></em> [Insert Relationship to You]
+<br />
+<ol>
+<li>[Same person from Name field]</li>
+<li>[Insert Ancestor Name &amp; Link]</li>
+<li>[Insert Ancestor Name &amp; Link]</li>
+<li><a href="https://www.blogger.com/people/robledo-colleen/" title="Colleen">Colleen (or Jeff)</a></li>
+</ol>
+</div>
+<!-- End copying into raw HTML editor -->
+
+/* ********** END VERSION 2 ********** */
